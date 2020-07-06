@@ -1,7 +1,7 @@
 import React,{ useReducer } from 'react';
 
 
-function ReducerDemo(){
+function UseReducer(){
   //解构出要修改的count和dispatch
   const [count,dispatch] = useReducer((state,action)=>{
       switch(action.type){
@@ -21,4 +21,4 @@ function ReducerDemo(){
     </>
   )
 }
-export default ReducerDemo;
+export default UseReducer;

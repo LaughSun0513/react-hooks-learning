@@ -4,7 +4,8 @@ import Buttons from './buttons';
 import ShowArea from './showArea';
 import {Color} from './context';
 
-function ClickToShowColor(){
+// ClickToShowColor
+function UseRuducer1(){
   //将Color套在最外层
   return (
     <>
@@ -15,4 +16,4 @@ function ClickToShowColor(){
     </>
   )
 }
-export default ClickToShowColor
+export default UseRuducer1;

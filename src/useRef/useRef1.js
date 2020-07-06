@@ -1,7 +1,7 @@
 import React , { useRef } from 'react';
 
-function RefDemo(){
-    const inputEle = useRef(); //作用1:可以选取DOM节点
+function UseRef1(){
+    const inputEle = useRef(); //作用1:可以选取DOM节点,这里是通过button的点击去修改input的值
     const onButtonClick = () => {
         inputEle.current.value = "Hello useRef"
     }
@@ -13,4 +13,4 @@ function RefDemo(){
     )
 
 }
-export default RefDemo;
+export default UseRef1;

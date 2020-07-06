@@ -1,10 +1,10 @@
 import React , { useRef,useState,useEffect } from 'react';
 
-function RefDemo(){
+function UseRef2(){
     const [text,setText] = useState("动态绑定state")
     const textRef = useRef(); //作用2:可以保存变量
     useEffect(()=>{
-        textRef.current = text; //可以保存变量
+        textRef.current = text; //可以保存变量 这里可以实时保存input的值
         console.log(text);
     })
 
@@ -15,7 +15,7 @@ function RefDemo(){
     )
 
 }
-export default RefDemo;
+export default UseRef2;
 
 /*
 动态绑定state

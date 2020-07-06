@@ -33,7 +33,7 @@ function Child({name,children}){
     }
     //第一个参数 函数 执行当前需要执行的函数
     //第二个参数 当name变化的时候才执行changeA
-    const actionA = useMemo(()=>changeA(name),[name]); //缓存状态和属性
+    useMemo(()=>changeA(name),[name]); //缓存状态和属性
     return (
       <>
         <div>{name}</div>

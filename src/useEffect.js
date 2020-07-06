@@ -27,7 +27,7 @@ function List(){
   },[])
   return <h2>Page List</h2>
 }
-function App() {
+function UseEffect() {
   const [ count , setCount ] = useState(0);
   //第二个参数为count，表示当count变化时才执行
   useEffect(()=>{
@@ -52,4 +52,4 @@ function App() {
   );
 }
 
-export default App;
+export default UseEffect;
